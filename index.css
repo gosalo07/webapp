@@ -26,8 +26,8 @@ body {
         flex: 1;    /* les seccions ocupen tot l'espai disponible */
         display: none;    /* les seccions s'inicien ocultes, excepte la primera */
     }
-    #seccio_1 {
-        display: none;/* única secció que es mostra a l'inici */
+    #seccio_0 {
+        display: flex;/* única secció que es mostra a l'inici */
         justify-content: center;    /* contingut centrat en la direcció de disposició */
         align-items: center;    /* contingut centrat en la direcció transversal */
         font-size: 4vmax;
@@ -75,7 +75,6 @@ body {
         display: none;
     }
     #seccio_1 {
-        display: flex;
         justify-content: center;
         align-items: center;
         font-size: 4vmax;
